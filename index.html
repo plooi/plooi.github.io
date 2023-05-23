@@ -1,17 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <title>Peter Looi</title>
+    <style>
+        body {
+        background-image: url("Background.png");
+        height: 100%;
+        width:100%;
+
+        /* Center and scale the image nicely */
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding:0px;
+        margin:0px;
+        }
+        .skigame
+        {
+            background-color: aliceblue;
+            /*
+            overflow: hidden;
+            display:inline-block;*/
+            padding:30px;
+            margin:30px;
+            
+
+        }
+        .SkiGameImage
+        {
+            float:left;
+            margin: 30px;
+            display:inline-block;
+        }
+        .SkiGameDownload
+        {
+            margin: 30px;
+            overflow:hidden;
+            display:inline-block;
+        }
+        .SkiGameBody
+        {
+            display:block;
+            overflow: hidden;
+            
+        }
+        .SkiGameDescription
+        {
+            font-size: 20px;
+        }
+        *
+        {
+            font-family:Arial;
+        }
+        h1
+        {
+            text-align:center;
+            background-color: antiquewhite;
+            padding:30px;
+            margin:30px;
+        }
+    </style>
   </head>
+  
   <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-    </main>
-	<script src="index.js"></script>
+    <h1>Peter Looi's Projects</h1>  
+	
+    <div class="skigame">
+        
+        <h2 style="text-align: center;">Ski Game</h2>
+        <div class="SkiGameBody">
+
+            <span class="SkiGameImage" >
+                <img src="BG8.png" width="533", height="300">
+            </span>
+            <span class="SkiGameDownload" >
+                Download Game:
+                <br>
+                <a href="https://drive.google.com/file/d/1mJyBvEYVnwX-SvVWty2MLBfv6fGoOlhV/view?usp=sharing">CLICK HERE TO DOWNLOAD</a>
+                
+    
+            </span>
+            
+        </div>
+        <div class="SkiGameDescription">
+            Embark on an adventure through the mountains with nothing but a pair of skis. <br>Learn how to navigate steep terrain, cruise down the pistes, and try to get the best time on the race courses. 
+        </div>
+        
+        
+    </div>
+    
   </body>
+  <script>
+    
+  </script>
 </html>
